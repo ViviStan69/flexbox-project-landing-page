@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.hero-segment,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-links,
+.hero-message {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header,
+.hero-segment {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    justify-items: flex-end;
+}
+
+.hero-segment {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 300px;
+}
+
+.hero-message {
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 420px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    /* I largely stole this button from the Odin website */
+    align-items: center;
+    border-color: transparent;
+    border-radius: .375rem;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+    line-height: 1.25rem;
+    min-width: 100px;
+    padding: .5rem 2rem;
+    text-decoration-line: none;
+}
